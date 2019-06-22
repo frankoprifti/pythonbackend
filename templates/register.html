@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Register</title>
+  <style>
+    body{
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content:center;
+      flex-direction: column
+    }
+    #button{
+    }
+  </style>
+</head>
+<body>
+  <H1>Register</H1>
+  <form action="/user" method="POST">
+    <label>UserName:</label>
+    <input name="username" type="text">
+    <br><br>
+    <label>Name:</label>
+    <input name="name" type="text">
+    <br><br>
+    <label>Password:</label>
+    <input name="password" type="password">
+    <br><br>
+    <label>Birthday:</label>
+    <input name="birthday" placeholder="YYYY-MM-DD" type="text">
+    <br><br>
+    <label>BirthPlace:</label>
+    <input name="birthplace" type="text">
+    <br><br>
+    <label>Living:</label>
+    <input name="living" type="text">
+    <br><br>
+    <input id="button" type="submit" name="form" value="Submit">
+  </form>
+  
+  
+  
+</body>
+</html>
